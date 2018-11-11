@@ -1,4 +1,5 @@
 from random import randint
+alist = [randint(0,100) for i in range(1,11)]
 def quick_sort(num_list):
     if len(num_list)<=1:
         return num_list
